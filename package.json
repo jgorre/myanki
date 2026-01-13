@@ -1,0 +1,15 @@
+{
+  "name": "myanki",
+  "version": "1.0.0",
+  "description": "Simple Anki-style Swedish vocabulary trainer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["anki", "flashcards", "swedish", "vocabulary"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyAnki - Swedish Vocabulary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>🇸🇪 MyAnki</h1>
+      <nav>
+        <button class="nav-btn active" data-view="study">Study</button>
+        <button class="nav-btn" data-view="add">Add Cards</button>
+      </nav>
+    </header>
+
+    <!-- Study View -->
+    <main id="study-view" class="view active">
+      <div class="stats">
+        <span id="due-count">0 cards due</span>
+        <span id="total-count">0 total</span>
+      </div>
+
+      <div id="card-container">
+        <!-- Empty state -->
+        <div id="empty-state" class="card-wrapper">
+          <div class="empty-message">
+            <p>No cards due! 🎉</p>
+            <p class="subtle">Add some cards to get started</p>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div id="flashcard" class="card-wrapper hidden">
+          <div class="card" id="card">
+            <div class="card-front">
+              <span class="card-label">English</span>
+              <span class="card-text" id="card-front-text"></span>
+              <span class="card-hint" id="card-hint">Click or press Space to reveal</span>
+            </div>
+            <div class="card-answer hidden" id="card-answer">
+              <span class="card-label">Svenska</span>
+              <span class="card-text" id="card-back-text"></span>
+            </div>
+            <button class="delete-btn hidden" id="delete-btn" title="Delete this card">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 6h18M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2m3 0v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6h14zM10 11v6M14 11v6"/>
+              </svg>
+            </button>
+          </div>
+
+          <div class="rating-buttons hidden" id="rating-buttons">
+            <button class="rate-btn again" data-rating="1">
+              <span class="rating-key">1</span>
+              Again
+            </button>
+            <button class="rate-btn hard" data-rating="2">
+              <span class="rating-key">2</span>
+              Hard
+            </button>
+            <button class="rate-btn good" data-rating="3">
+              <span class="rating-key">3</span>
+              Good
+            </button>
+            <button class="rate-btn easy" data-rating="4">
+              <span class="rating-key">4</span>
+              Easy
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Add Cards View -->
+    <main id="add-view" class="view">
+      <div class="add-container">
+        <h2>Add New Cards</h2>
+        <p class="instructions">
+          Enter one card per line: <code>english - swedish</code>
+        </p>
+        
+        <textarea 
+          id="bulk-input" 
+          placeholder="dog - hund
+cat - katt
+house - hus
+to run - att springa"
+          rows="12"
+        ></textarea>
+
+        <div class="add-actions">
+          <button id="add-cards-btn" class="primary-btn">
+            Add Cards
+          </button>
+          <span id="add-feedback"></span>
+        </div>
+
+        <div class="recent-cards">
+          <h3>Recently Added</h3>
+          <ul id="recent-list"></ul>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
