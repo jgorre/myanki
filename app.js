@@ -62,33 +62,36 @@ function updateDueCards() {
 }
 
 function calculateNextReview(card, rating) {
-  // rating: 1=Again, 2=Hard, 3=Good, 4=Easy
+  // rating: 2=Hard, 3=Good, 4=Easy (Again is handled separately)
   let { interval, easeFactor, repetitions } = card;
   
-  if (rating === 1) {
-    // Again - reset
-    repetitions = 0;
+  if (rating === 2) {
+    // Hard - always tomorrow, lower ease factor
     interval = 1;
-    easeFactor = Math.max(1.3, easeFactor - 0.2);
-  } else if (rating === 2) {
-    // Hard
-    interval = Math.ceil(interval * 1.2);
     easeFactor = Math.max(1.3, easeFactor - 0.15);
-    repetitions++;
+    // Keep repetitions (don't reset progress)
   } else if (rating === 3) {
-    // Good
+    // Good - gradual progression: 1 → 3 → 7 → 14 → multiply
     if (repetitions === 0) {
       interval = 1;
     } else if (repetitions === 1) {
-      interval = 6;
+      interval = 3;
+    } else if (repetitions === 2) {
+      interval = 7;
+    } else if (repetitions === 3) {
+      interval = 14;
     } else {
       interval = Math.ceil(interval * easeFactor);
     }
     repetitions++;
   } else if (rating === 4) {
-    // Easy
+    // Easy - faster progression: 1 → 6 → 14 → multiply faster
     if (repetitions === 0) {
-      interval = 4;
+      interval = 1;
+    } else if (repetitions === 1) {
+      interval = 6;
+    } else if (repetitions === 2) {
+      interval = 14;
     } else {
       interval = Math.ceil(interval * easeFactor * 1.3);
     }

@@ -46,16 +46,35 @@ Uses a simplified SM-2 algorithm. Each card tracks:
 - **easeFactor** - personal difficulty multiplier (starts at 2.5)
 - **repetitions** - successful reviews in a row
 
-### Review Schedule
+### Button Behaviors
 
-| Button | 1st Review | 2nd Review | After That |
-|--------|-----------|------------|------------|
-| Again | End of today | End of today | End of today |
-| Hard | 1 day | 2 days | interval × 1.2 |
-| Good | 1 day | 6 days | interval × easeFactor |
-| Easy | 4 days | 4+ days | interval × easeFactor × 1.3 |
+| Button | What it means | Behavior |
+|--------|---------------|----------|
+| **Again** | No idea | Back in today's deck, resets progress |
+| **Hard** | Struggled | Tomorrow (always 1 day), keeps progress |
+| **Good** | Got it | Gradual progression |
+| **Easy** | Too easy | Faster progression |
 
-Cards you struggle with get a lower ease factor, so they appear more often even after you start getting them right.
+### Review Progression
+
+**Good** (pressing Good every time):
+| Review | Next in |
+|--------|---------|
+| 1st | 1 day |
+| 2nd | 3 days |
+| 3rd | 7 days |
+| 4th | 14 days |
+| 5th+ | ×easeFactor |
+
+**Easy** (pressing Easy every time):
+| Review | Next in |
+|--------|---------|
+| 1st | 1 day |
+| 2nd | 6 days |
+| 3rd | 14 days |
+| 4th+ | ×easeFactor ×1.3 |
+
+**Hard** always resets to 1 day but keeps your repetition count, so you can continue your progression once you hit Good again.
 
 ## Data Storage
 
