@@ -1,4 +1,131 @@
 {
-  "cards": [],
-  "nextId": 1
+  "cards": [
+    {
+      "id": 1,
+      "english": "viper",
+      "swedish": "huggorm",
+      "nextReview": "2026-01-19",
+      "interval": 3,
+      "easeFactor": 2.5,
+      "repetitions": 2
+    },
+    {
+      "id": 2,
+      "english": "stings, burns",
+      "swedish": "svider",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.2,
+      "repetitions": 0
+    },
+    {
+      "id": 3,
+      "english": "blood vessels",
+      "swedish": "blodåder",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.2,
+      "repetitions": 0
+    },
+    {
+      "id": 4,
+      "english": "treatment",
+      "swedish": "behandling",
+      "nextReview": "2026-01-19",
+      "interval": 3,
+      "easeFactor": 2.5,
+      "repetitions": 2
+    },
+    {
+      "id": 5,
+      "english": "joints",
+      "swedish": "lederna",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 1
+    },
+    {
+      "id": 6,
+      "english": "suffering",
+      "swedish": "lidande",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.2,
+      "repetitions": 0
+    },
+    {
+      "id": 7,
+      "english": "facial paralysis",
+      "swedish": "ansiktsförlamning",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.2,
+      "repetitions": 0
+    },
+    {
+      "id": 8,
+      "english": "mild, minor",
+      "swedish": "lindrig",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.2,
+      "repetitions": 0
+    },
+    {
+      "id": 9,
+      "english": "discomfort",
+      "swedish": "besvär",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 1
+    },
+    {
+      "id": 10,
+      "english": "peaceful",
+      "swedish": "fredlig",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 11,
+      "english": "sense of smell",
+      "swedish": "luktsinne",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 0
+    },
+    {
+      "id": 12,
+      "english": "to trudge, shuffle away heavily",
+      "swedish": "att lufsa",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 0
+    },
+    {
+      "id": 13,
+      "english": "altogether, in total",
+      "swedish": "sammanlagt",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 0
+    },
+    {
+      "id": 14,
+      "english": "to cure",
+      "swedish": "att bota",
+      "nextReview": "2026-01-17",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 0
+    }
+  ],
+  "nextId": 15
 }
