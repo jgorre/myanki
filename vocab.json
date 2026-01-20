@@ -129,7 +129,7 @@
     {
       "id": 15,
       "english": "to clear one's throat",
-      "swedish": "att harkla",
+      "swedish": "att harkla sig",
       "nextReview": "2026-01-23",
       "interval": 3,
       "easeFactor": 2.5,
@@ -192,7 +192,7 @@
     {
       "id": 22,
       "english": "to turn around, turn back",
-      "swedish": "att vända om",
+      "swedish": "att vända sig om",
       "nextReview": "2026-01-20",
       "interval": 1,
       "easeFactor": 2.5,
