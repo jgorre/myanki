@@ -13,19 +13,19 @@
       "id": 2,
       "english": "stings, burns",
       "swedish": "svider",
-      "nextReview": "2026-01-20",
-      "interval": 1,
+      "nextReview": "2026-01-23",
+      "interval": 3,
       "easeFactor": 2.2,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 3,
       "english": "blood vessels",
       "swedish": "blodåder",
-      "nextReview": "2026-01-20",
-      "interval": 1,
+      "nextReview": "2026-01-23",
+      "interval": 3,
       "easeFactor": 2.2,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 4,
@@ -49,36 +49,36 @@
       "id": 6,
       "english": "suffering",
       "swedish": "lidande",
-      "nextReview": "2026-01-20",
-      "interval": 1,
+      "nextReview": "2026-01-23",
+      "interval": 3,
       "easeFactor": 2.2,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 7,
       "english": "facial paralysis",
       "swedish": "ansiktsförlamning",
-      "nextReview": "2026-01-20",
+      "nextReview": "2026-01-21",
       "interval": 1,
       "easeFactor": 2.0500000000000003,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 8,
       "english": "mild, minor",
       "swedish": "lindrig",
-      "nextReview": "2026-01-20",
+      "nextReview": "2026-01-21",
       "interval": 1,
-      "easeFactor": 2.0500000000000003,
+      "easeFactor": 1.9000000000000004,
       "repetitions": 0
     },
     {
       "id": 9,
       "english": "discomfort",
       "swedish": "besvär",
-      "nextReview": "2026-01-20",
+      "nextReview": "2026-01-21",
       "interval": 1,
-      "easeFactor": 2.2,
+      "easeFactor": 2.0500000000000003,
       "repetitions": 1
     },
     {
@@ -94,37 +94,37 @@
       "id": 11,
       "english": "sense of smell",
       "swedish": "luktsinne",
-      "nextReview": "2026-01-20",
-      "interval": 1,
+      "nextReview": "2026-01-23",
+      "interval": 3,
       "easeFactor": 2.35,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 12,
       "english": "to trudge, shuffle away heavily",
       "swedish": "att lufsa",
-      "nextReview": "2026-01-20",
+      "nextReview": "2026-01-21",
       "interval": 1,
       "easeFactor": 2.2,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 13,
       "english": "altogether, in total",
       "swedish": "sammanlagt",
-      "nextReview": "2026-01-20",
-      "interval": 1,
+      "nextReview": "2026-01-23",
+      "interval": 3,
       "easeFactor": 2.35,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 14,
       "english": "to cure",
       "swedish": "att bota",
-      "nextReview": "2026-01-20",
+      "nextReview": "2026-01-21",
       "interval": 1,
       "easeFactor": 2.2,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 15,
@@ -139,65 +139,191 @@
       "id": 16,
       "english": "mean",
       "swedish": "elakt",
-      "nextReview": "2026-01-20",
+      "nextReview": "2026-01-21",
       "interval": 1,
-      "easeFactor": 2.5,
+      "easeFactor": 2.35,
       "repetitions": 1
     },
     {
       "id": 17,
       "english": "predator",
       "swedish": "rovdjur",
-      "nextReview": "2026-01-20",
-      "interval": 1,
+      "nextReview": "2026-01-23",
+      "interval": 3,
       "easeFactor": 2.5,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 18,
       "english": "skilled, adept",
       "swedish": "skicklig",
-      "nextReview": "2026-01-20",
+      "nextReview": "2026-01-21",
       "interval": 1,
-      "easeFactor": 2.35,
+      "easeFactor": 2.2,
       "repetitions": 0
     },
     {
       "id": 19,
       "english": "crossing (also crossbreed)",
       "swedish": "korsning",
-      "nextReview": "2026-01-20",
-      "interval": 1,
-      "easeFactor": 2.5,
-      "repetitions": 1
+      "nextReview": "2026-01-26",
+      "interval": 6,
+      "easeFactor": 2.65,
+      "repetitions": 2
     },
     {
       "id": 20,
       "english": "skittish (usually of an animal)",
       "swedish": "skygg",
-      "nextReview": "2026-01-20",
+      "nextReview": "2026-01-21",
       "interval": 1,
-      "easeFactor": 2.35,
+      "easeFactor": 2.2,
       "repetitions": 0
     },
     {
       "id": 21,
       "english": "captivity",
       "swedish": "fångenskap",
-      "nextReview": "2026-01-20",
-      "interval": 1,
+      "nextReview": "2026-01-23",
+      "interval": 3,
       "easeFactor": 2.5,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 22,
       "english": "to turn around, turn back",
       "swedish": "att vända sig om",
-      "nextReview": "2026-01-20",
+      "nextReview": "2026-01-23",
+      "interval": 3,
+      "easeFactor": 2.5,
+      "repetitions": 2
+    },
+    {
+      "id": 23,
+      "english": "enigmatic, mysterious",
+      "swedish": "gåtfull",
+      "nextReview": "2026-01-21",
       "interval": 1,
       "easeFactor": 2.5,
       "repetitions": 1
+    },
+    {
+      "id": 24,
+      "english": "rock carvings",
+      "swedish": "hällristningar",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 0
+    },
+    {
+      "id": 25,
+      "english": "peaceful, serene",
+      "swedish": "fridfull",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 26,
+      "english": "dawn, daybreak",
+      "swedish": "gryning",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 27,
+      "english": "dusk, twilight",
+      "swedish": "skymning",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 28,
+      "english": "to shoo away or chase off",
+      "swedish": "att sjasa",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 0
+    },
+    {
+      "id": 29,
+      "english": "to flap (wings/arms), to flutter",
+      "swedish": "att flaxa",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 0
+    },
+    {
+      "id": 30,
+      "english": "to shout, whoop, holler",
+      "swedish": "att tjoa",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 31,
+      "english": "to swerve, to dodge",
+      "swedish": "att väja",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 32,
+      "english": "to run into, to come across",
+      "swedish": "att stöta på",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 33,
+      "english": "aching",
+      "swedish": "värkande",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 34,
+      "english": "fixedly staring",
+      "swedish": "stirrande",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 35,
+      "english": "fitting, suitable",
+      "swedish": "passande",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 1
+    },
+    {
+      "id": 36,
+      "english": "species",
+      "swedish": "art",
+      "nextReview": "2026-01-21",
+      "interval": 1,
+      "easeFactor": 2.35,
+      "repetitions": 0
     }
   ],
-  "nextId": 23
+  "nextId": 37
 }
