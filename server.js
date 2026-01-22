@@ -8,6 +8,40 @@ const PORT = 3000;
 const DB_FILE = path.join(__dirname, 'vocab.json');
 const TOKEN_FILE = path.join(__dirname, '.githubtoken');
 
+// Pull latest changes from GitHub on startup
+function pullOnStartup() {
+  return new Promise((resolve) => {
+    let token;
+    try {
+      token = fs.readFileSync(TOKEN_FILE, 'utf8').trim();
+    } catch (err) {
+      console.log('⚠️  No GitHub token found, skipping pull');
+      return resolve();
+    }
+
+    const repoUrl = `https://jgorre:${token}@github.com/jgorre/myanki.git`;
+    exec(`git pull ${repoUrl}`, { cwd: __dirname }, (error, stdout, stderr) => {
+      if (error) {
+        console.log('⚠️  Pull failed:', stderr || error.message);
+      } else if (stdout.includes('Already up to date')) {
+        console.log('✓ Already up to date');
+      } else {
+        console.log('✓ Pulled latest changes:', stdout.trim());
+        
+        // Check if code files were updated
+        const codeFilesChanged = ['app.js', 'server.js', 'index.html', 'style.css']
+          .filter(file => stdout.includes(file));
+        
+        if (codeFilesChanged.length > 0) {
+          console.log('\n  ⚠️  WARNING: Code files were updated:', codeFilesChanged.join(', '));
+          console.log('  ⚠️  Restart the server to apply these changes!\n');
+        }
+      }
+      resolve();
+    });
+  });
+}
+
 app.use(express.json());
 app.use(express.static(__dirname));
 
@@ -62,6 +96,9 @@ app.post('/api/backup', (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`\n  🇸🇪 MyAnki running at http://localhost:${PORT}\n`);
+// Start server after pulling latest changes
+pullOnStartup().then(() => {
+  app.listen(PORT, () => {
+    console.log(`\n  🇸🇪 MyAnki running at http://localhost:${PORT}\n`);
+  });
 });
