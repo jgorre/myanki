@@ -2,6 +2,7 @@
 let data = { cards: [], nextId: 1 };
 let currentCard = null;
 let dueCards = [];
+let previousDueCount = 0; // Track for session completion detection
 
 // ===== DOM Elements =====
 const studyView = document.getElementById('study-view');
@@ -25,6 +26,10 @@ const addCardsBtn = document.getElementById('add-cards-btn');
 const addFeedback = document.getElementById('add-feedback');
 const recentList = document.getElementById('recent-list');
 
+const backupStatus = document.getElementById('backup-status');
+const backupSpinner = backupStatus.querySelector('.backup-spinner');
+const backupText = document.getElementById('backup-text');
+
 // ===== API =====
 async function loadData() {
   const res = await fetch('/api/cards');
@@ -41,6 +46,54 @@ async function saveData() {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data)
   });
+}
+
+// ===== Git Backup =====
+function getFormattedDate() {
+  return new Date().toISOString().split('T')[0];
+}
+
+function showBackupStatus(message, isLoading = false, isError = false) {
+  backupSpinner.classList.toggle('hidden', !isLoading);
+  backupText.textContent = message;
+  backupStatus.classList.remove('success', 'error');
+  if (!isLoading && !isError) backupStatus.classList.add('success');
+  if (isError) backupStatus.classList.add('error');
+  backupStatus.classList.add('visible');
+}
+
+function hideBackupStatus(delay = 3000) {
+  setTimeout(() => {
+    backupStatus.classList.remove('visible');
+  }, delay);
+}
+
+async function backupToGit(commitMessage) {
+  showBackupStatus('Backing up...', true);
+  
+  try {
+    const res = await fetch('/api/backup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message: commitMessage })
+    });
+    
+    const result = await res.json();
+    
+    if (result.success) {
+      const now = new Date().toLocaleTimeString();
+      localStorage.setItem('lastBackup', now);
+      showBackupStatus(`✓ Backed up at ${now}`);
+      hideBackupStatus();
+    } else {
+      showBackupStatus('✗ Backup failed', false, true);
+      hideBackupStatus(5000);
+    }
+  } catch (err) {
+    console.error('Backup error:', err);
+    showBackupStatus('✗ Backup failed', false, true);
+    hideBackupStatus(5000);
+  }
 }
 
 // ===== Spaced Repetition (SM-2) =====
@@ -165,6 +218,9 @@ function deleteCard() {
 function rateCard(rating) {
   if (!currentCard) return;
   
+  // Track previous count for session completion detection
+  const prevCount = dueCards.length;
+  
   // Remove from front of due cards
   dueCards.shift();
   
@@ -183,6 +239,11 @@ function rateCard(rating) {
   
   updateStats();
   showNextCard();
+  
+  // Check for session completion: went from >0 to 0 due cards
+  if (prevCount > 0 && dueCards.length === 0) {
+    backupToGit(`session completed - ${getFormattedDate()}`);
+  }
 }
 
 function renderRecentCards() {
@@ -236,6 +297,9 @@ function addCards() {
     bulkInput.value = '';
     addFeedback.textContent = `✓ Added ${added} card${added !== 1 ? 's' : ''}`;
     setTimeout(() => { addFeedback.textContent = ''; }, 3000);
+    
+    // Backup to git
+    backupToGit(`added ${added} card${added !== 1 ? 's' : ''} - ${getFormattedDate()}`);
   } else {
     addFeedback.textContent = 'No valid cards found';
     addFeedback.style.color = 'var(--accent-orange)';
@@ -313,3 +377,10 @@ document.addEventListener('keydown', (e) => {
 
 // ===== Initialize =====
 loadData();
+
+// Show last backup time if available
+const lastBackup = localStorage.getItem('lastBackup');
+if (lastBackup) {
+  showBackupStatus(`Last backup: ${lastBackup}`);
+  hideBackupStatus(5000);
+}

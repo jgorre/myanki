@@ -515,3 +515,54 @@ textarea::placeholder {
     gap: 1rem;
   }
 }
+
+/* ===== Backup Status Indicator ===== */
+.backup-status {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 100;
+}
+
+.backup-status.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.backup-status.success {
+  border-color: var(--accent-green);
+}
+
+.backup-status.error {
+  border-color: var(--accent-red);
+  color: var(--accent-red);
+}
+
+.backup-spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--border-color);
+  border-top-color: var(--accent-blue);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.backup-spinner.hidden {
+  display: none;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
