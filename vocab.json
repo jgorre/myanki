@@ -391,19 +391,19 @@
       "id": 44,
       "english": "here",
       "swedish": "some",
-      "nextReview": "2026-01-22",
+      "nextReview": "2026-01-23",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 45,
       "english": "bs",
       "swedish": "cards",
-      "nextReview": "2026-01-22",
+      "nextReview": "2026-01-23",
       "interval": 1,
-      "easeFactor": 2.5,
-      "repetitions": 0
+      "easeFactor": 2.65,
+      "repetitions": 1
     }
   ],
   "nextId": 46
