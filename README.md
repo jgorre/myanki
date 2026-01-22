@@ -83,15 +83,31 @@ Your vocabulary is stored in `vocab.json` - a simple JSON file that you can:
 - Edit manually if needed
 - Back up easily
 
+## Auto-Backup to GitHub
+
+MyAnki automatically backs up your vocabulary to GitHub:
+
+- **After adding cards** - Commits with message: `added X cards - YYYY-MM-DD`
+- **After completing a study session** - Commits with message: `session completed - YYYY-MM-DD`
+
+A status indicator appears in the bottom-right corner showing backup progress.
+
+### Setup
+
+1. Create a GitHub Personal Access Token with repo permissions
+2. Save it to `.githubtoken` in the project root (this file is git-ignored)
+3. The token is used server-side only - never exposed to the frontend
+
 ## Project Structure
 
 ```
 myanki/
-├── index.html   # Single page app
-├── style.css    # Dark mode UI
-├── app.js       # Frontend logic
-├── server.js    # Minimal Express server
-├── vocab.json   # Your vocabulary database
+├── index.html    # Single page app
+├── style.css     # Dark mode UI
+├── app.js        # Frontend logic
+├── server.js     # Express server + backup API
+├── vocab.json    # Your vocabulary database
+├── .githubtoken  # GitHub PAT (git-ignored)
 └── package.json
 ```
 

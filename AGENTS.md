@@ -13,11 +13,12 @@ MyAnki is a local-first Swedish vocabulary trainer using spaced repetition. It's
 ## Architecture
 
 ```
-index.html   → Single page app UI
-style.css    → Dark mode styling
-app.js       → Frontend logic (SPA routing, spaced repetition, UI)
-server.js    → Minimal Express server (serves static files, CRUD for vocab)
-vocab.json   → Vocabulary data store (git-tracked)
+index.html    → Single page app UI
+style.css     → Dark mode styling
+app.js        → Frontend logic (SPA routing, spaced repetition, UI, backup triggers)
+server.js     → Express server (static files, CRUD for vocab, git backup API)
+vocab.json    → Vocabulary data store (git-tracked)
+.githubtoken  → GitHub PAT for auto-backup (git-ignored)
 ```
 
 ## Key Concepts
@@ -49,6 +50,37 @@ npm start  # http://localhost:3000
 - No external database - everything is file-based
 - Designed for personal use (single user)
 
-## Auto-Commit Consideration
+## Auto-Backup System
 
-Since `vocab.json` changes frequently during study sessions and is meant to be git-tracked, consider automating commits/pushes to preserve vocabulary progress across devices.
+The app automatically commits and pushes `vocab.json` to GitHub:
+
+### Triggers
+1. **After adding cards** → `added X cards - YYYY-MM-DD`
+2. **After session complete** (due cards goes from >0 to 0) → `session completed - YYYY-MM-DD`
+
+### Implementation
+- `POST /api/backup` endpoint in `server.js`
+- Reads GitHub PAT from `.githubtoken` file
+- Runs: `git add vocab.json && git commit -m "..." && git push`
+- Handles "nothing to commit" gracefully
+- UI shows spinner during backup, success/error status after
+
+### Security
+- `.githubtoken` is in `.gitignore` - never committed
+- Token only used server-side, never exposed to frontend
+
+## Agent Guidelines
+
+### After Making Changes
+If you've made meaningful changes to the codebase (new features, architectural changes, bug fixes), ask the user:
+> "Should I update the README and/or AGENTS.md to reflect these changes?"
+
+### Key Files to Understand
+- `app.js` - All frontend logic including spaced repetition algorithm
+- `server.js` - Simple Express server with `/api/cards` and `/api/backup` endpoints
+- `vocab.json` - The data format for cards
+
+### Code Style
+- Vanilla JS, no frameworks
+- Simple and readable over clever
+- Comments for non-obvious logic only
