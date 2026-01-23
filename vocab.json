@@ -386,7 +386,34 @@
       "interval": 1,
       "easeFactor": 2.5,
       "repetitions": 1
+    },
+    {
+      "id": 44,
+      "english": "to treat oneself",
+      "swedish": "att unna sig",
+      "nextReview": "2026-01-23",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 45,
+      "english": "contributes",
+      "swedish": "bidrar",
+      "nextReview": "2026-01-23",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 46,
+      "english": "diving platform (at a pool or lake)",
+      "swedish": "hopptorn",
+      "nextReview": "2026-01-23",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
     }
   ],
-  "nextId": 44
+  "nextId": 47
 }
