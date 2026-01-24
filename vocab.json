@@ -175,10 +175,10 @@
       "id": 20,
       "english": "skittish (usually of an animal)",
       "swedish": "skygg",
-      "nextReview": "2026-01-24",
-      "interval": 1,
+      "nextReview": "2026-01-27",
+      "interval": 3,
       "easeFactor": 2.0500000000000003,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 21,
@@ -193,10 +193,10 @@
       "id": 22,
       "english": "to turn around, turn back",
       "swedish": "att vända sig om",
-      "nextReview": "2026-01-24",
-      "interval": 1,
+      "nextReview": "2026-01-31",
+      "interval": 7,
       "easeFactor": 2.35,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 23,
@@ -211,19 +211,19 @@
       "id": 24,
       "english": "rock carvings",
       "swedish": "hällristningar",
-      "nextReview": "2026-01-24",
-      "interval": 1,
+      "nextReview": "2026-01-27",
+      "interval": 3,
       "easeFactor": 2.2,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 25,
       "english": "peaceful, serene",
       "swedish": "fridfull",
-      "nextReview": "2026-01-24",
-      "interval": 1,
+      "nextReview": "2026-01-27",
+      "interval": 3,
       "easeFactor": 2.2,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 26,
@@ -238,28 +238,28 @@
       "id": 27,
       "english": "dusk, twilight",
       "swedish": "skymning",
-      "nextReview": "2026-01-24",
-      "interval": 1,
-      "easeFactor": 2.2,
-      "repetitions": 1
+      "nextReview": "2026-01-30",
+      "interval": 6,
+      "easeFactor": 2.35,
+      "repetitions": 2
     },
     {
       "id": 28,
       "english": "to shoo away or chase off",
       "swedish": "att sjasa",
-      "nextReview": "2026-01-24",
+      "nextReview": "2026-01-25",
       "interval": 1,
       "easeFactor": 2.0500000000000003,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 29,
       "english": "to flap (wings/arms), to flutter",
       "swedish": "att flaxa",
-      "nextReview": "2026-01-24",
-      "interval": 1,
+      "nextReview": "2026-01-27",
+      "interval": 3,
       "easeFactor": 2.2,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 30,
@@ -364,19 +364,19 @@
       "id": 41,
       "english": "twigs",
       "swedish": "kvistar",
-      "nextReview": "2026-01-24",
-      "interval": 1,
-      "easeFactor": 2.35,
-      "repetitions": 1
+      "nextReview": "2026-01-30",
+      "interval": 6,
+      "easeFactor": 2.5,
+      "repetitions": 2
     },
     {
       "id": 42,
       "english": "legally protected (often about species)",
       "swedish": "fridlysta",
-      "nextReview": "2026-01-24",
+      "nextReview": "2026-01-25",
       "interval": 1,
       "easeFactor": 2.2,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 43,
@@ -391,28 +391,28 @@
       "id": 44,
       "english": "to treat oneself",
       "swedish": "att unna sig",
-      "nextReview": "2026-01-24",
-      "interval": 1,
+      "nextReview": "2026-01-27",
+      "interval": 3,
       "easeFactor": 2.65,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 45,
       "english": "contributes",
       "swedish": "bidrar",
-      "nextReview": "2026-01-24",
-      "interval": 1,
+      "nextReview": "2026-01-27",
+      "interval": 3,
       "easeFactor": 2.65,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 46,
       "english": "diving platform (at a pool or lake)",
       "swedish": "hopptorn",
-      "nextReview": "2026-01-24",
-      "interval": 1,
+      "nextReview": "2026-01-27",
+      "interval": 3,
       "easeFactor": 2.5,
-      "repetitions": 1
+      "repetitions": 2
     }
   ],
   "nextId": 47
