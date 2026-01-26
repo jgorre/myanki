@@ -413,7 +413,34 @@
       "interval": 3,
       "easeFactor": 2.5,
       "repetitions": 2
+    },
+    {
+      "id": 47,
+      "english": "broke (no money)",
+      "swedish": "pank",
+      "nextReview": "2026-01-26",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 48,
+      "english": "rave (as in club rave)",
+      "swedish": "rejv",
+      "nextReview": "2026-01-26",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 49,
+      "english": "gossip",
+      "swedish": "skvaller",
+      "nextReview": "2026-01-26",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
     }
   ],
-  "nextId": 47
+  "nextId": 50
 }
