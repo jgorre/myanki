@@ -175,10 +175,10 @@
       "id": 20,
       "english": "skittish (usually of an animal)",
       "swedish": "skygg",
-      "nextReview": "2026-01-27",
-      "interval": 3,
+      "nextReview": "2026-02-03",
+      "interval": 7,
       "easeFactor": 2.0500000000000003,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 21,
@@ -211,19 +211,19 @@
       "id": 24,
       "english": "rock carvings",
       "swedish": "hällristningar",
-      "nextReview": "2026-01-27",
-      "interval": 3,
+      "nextReview": "2026-02-03",
+      "interval": 7,
       "easeFactor": 2.2,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 25,
       "english": "peaceful, serene",
       "swedish": "fridfull",
-      "nextReview": "2026-01-27",
-      "interval": 3,
+      "nextReview": "2026-02-03",
+      "interval": 7,
       "easeFactor": 2.2,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 26,
@@ -256,10 +256,10 @@
       "id": 29,
       "english": "to flap (wings/arms), to flutter",
       "swedish": "att flaxa",
-      "nextReview": "2026-01-27",
-      "interval": 3,
+      "nextReview": "2026-02-03",
+      "interval": 7,
       "easeFactor": 2.2,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 30,
@@ -391,54 +391,54 @@
       "id": 44,
       "english": "to treat oneself",
       "swedish": "att unna sig",
-      "nextReview": "2026-01-27",
-      "interval": 3,
+      "nextReview": "2026-02-03",
+      "interval": 7,
       "easeFactor": 2.65,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 45,
       "english": "contributes",
       "swedish": "bidrar",
-      "nextReview": "2026-01-27",
-      "interval": 3,
+      "nextReview": "2026-02-03",
+      "interval": 7,
       "easeFactor": 2.65,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 46,
       "english": "diving platform (at a pool or lake)",
       "swedish": "hopptorn",
-      "nextReview": "2026-01-27",
-      "interval": 3,
+      "nextReview": "2026-02-03",
+      "interval": 7,
       "easeFactor": 2.5,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 47,
       "english": "broke (no money)",
       "swedish": "pank",
-      "nextReview": "2026-01-27",
+      "nextReview": "2026-01-28",
       "interval": 1,
-      "easeFactor": 2.5,
+      "easeFactor": 2.35,
       "repetitions": 1
     },
     {
       "id": 48,
       "english": "rave (as in club rave)",
       "swedish": "rejv",
-      "nextReview": "2026-01-27",
-      "interval": 1,
+      "nextReview": "2026-01-30",
+      "interval": 3,
       "easeFactor": 2.65,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 49,
       "english": "gossip",
       "swedish": "skvaller",
-      "nextReview": "2026-01-27",
+      "nextReview": "2026-01-28",
       "interval": 1,
-      "easeFactor": 2.5,
+      "easeFactor": 2.35,
       "repetitions": 1
     }
   ],
