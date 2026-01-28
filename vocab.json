@@ -440,7 +440,34 @@
       "interval": 1,
       "easeFactor": 2.35,
       "repetitions": 1
+    },
+    {
+      "id": 50,
+      "english": "even if",
+      "swedish": "även om",
+      "nextReview": "2026-01-28",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 51,
+      "english": "until",
+      "swedish": "tills, inte förrän",
+      "nextReview": "2026-01-28",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 52,
+      "english": "even though",
+      "swedish": "fastän",
+      "nextReview": "2026-01-28",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
     }
   ],
-  "nextId": 50
+  "nextId": 53
 }
