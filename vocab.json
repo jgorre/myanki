@@ -67,82 +67,82 @@
       "id": 8,
       "english": "mild, minor",
       "swedish": "lindrig",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 1.9000000000000004,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 9,
       "english": "discomfort",
       "swedish": "besvär",
-      "nextReview": "2026-02-01",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.0500000000000003,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 10,
       "english": "peaceful",
       "swedish": "fredlig",
-      "nextReview": "2026-01-29",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 11,
       "english": "sense of smell",
       "swedish": "luktsinne",
-      "nextReview": "2026-01-30",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.35,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 12,
       "english": "to trudge, shuffle away heavily",
       "swedish": "att lufsa",
-      "nextReview": "2026-02-01",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.2,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 13,
       "english": "altogether, in total",
       "swedish": "sammanlagt",
-      "nextReview": "2026-01-30",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.35,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 14,
       "english": "to cure",
       "swedish": "att bota",
-      "nextReview": "2026-02-01",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.2,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 15,
       "english": "to clear one's throat",
       "swedish": "att harkla sig",
-      "nextReview": "2026-01-30",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 16,
       "english": "mean",
       "swedish": "elakt",
-      "nextReview": "2026-02-01",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.35,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 17,
@@ -166,82 +166,82 @@
       "id": 19,
       "english": "crossing (also crossbreed)",
       "swedish": "korsning",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.65,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 20,
       "english": "skittish (usually of an animal)",
       "swedish": "skygg",
-      "nextReview": "2026-02-03",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.0500000000000003,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 21,
       "english": "captivity",
       "swedish": "fångenskap",
-      "nextReview": "2026-01-30",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 22,
       "english": "to turn around, turn back",
       "swedish": "att vända sig om",
-      "nextReview": "2026-01-31",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.35,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 23,
       "english": "enigmatic, mysterious",
       "swedish": "gåtfull",
-      "nextReview": "2026-02-01",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 24,
       "english": "rock carvings",
       "swedish": "hällristningar",
-      "nextReview": "2026-02-03",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.2,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 25,
       "english": "peaceful, serene",
       "swedish": "fridfull",
-      "nextReview": "2026-02-03",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.2,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 26,
       "english": "dawn, daybreak",
       "swedish": "gryning",
-      "nextReview": "2026-02-01",
-      "interval": 7,
-      "easeFactor": 2.5,
+      "nextReview": "2026-02-04",
+      "interval": 1,
+      "easeFactor": 2.35,
       "repetitions": 3
     },
     {
       "id": 27,
       "english": "dusk, twilight",
       "swedish": "skymning",
-      "nextReview": "2026-01-30",
-      "interval": 6,
+      "nextReview": "2026-02-10",
+      "interval": 7,
       "easeFactor": 2.35,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 28,
@@ -256,118 +256,118 @@
       "id": 29,
       "english": "to flap (wings/arms), to flutter",
       "swedish": "att flaxa",
-      "nextReview": "2026-02-03",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.2,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 30,
       "english": "to shout, whoop, holler",
       "swedish": "att tjoa",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.35,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 31,
       "english": "to swerve, to dodge",
       "swedish": "att väja",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.35,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 32,
       "english": "to run into, to come across",
       "swedish": "att stöta på",
-      "nextReview": "2026-02-01",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 33,
       "english": "aching",
       "swedish": "värkande",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.35,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 34,
       "english": "fixedly staring",
       "swedish": "stirrande",
-      "nextReview": "2026-02-01",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 35,
       "english": "fitting, suitable",
       "swedish": "passande",
-      "nextReview": "2026-02-01",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 36,
       "english": "species",
       "swedish": "art",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.35,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 37,
       "english": "poisoned",
       "swedish": "förgiftad",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 38,
       "english": "poisonous",
       "swedish": "giftig",
-      "nextReview": "2026-01-29",
-      "interval": 6,
+      "nextReview": "2026-02-10",
+      "interval": 7,
       "easeFactor": 2.65,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 39,
       "english": "to ask for permission",
       "swedish": "att be om lov",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 40,
       "english": "branches",
       "swedish": "grenar",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 41,
       "english": "twigs",
       "swedish": "kvistar",
-      "nextReview": "2026-01-30",
-      "interval": 6,
+      "nextReview": "2026-02-10",
+      "interval": 7,
       "easeFactor": 2.5,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 42,
@@ -382,145 +382,145 @@
       "id": 43,
       "english": "to nag, pester",
       "swedish": "att tjata",
-      "nextReview": "2026-02-02",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 44,
       "english": "to treat oneself",
       "swedish": "att unna sig",
-      "nextReview": "2026-02-03",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.65,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 45,
       "english": "contributes",
       "swedish": "bidrar",
-      "nextReview": "2026-02-03",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.65,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 46,
       "english": "diving platform (at a pool or lake)",
       "swedish": "hopptorn",
-      "nextReview": "2026-02-03",
-      "interval": 7,
+      "nextReview": "2026-02-17",
+      "interval": 14,
       "easeFactor": 2.5,
-      "repetitions": 3
+      "repetitions": 4
     },
     {
       "id": 47,
       "english": "broke (no money)",
       "swedish": "pank",
-      "nextReview": "2026-01-31",
-      "interval": 3,
+      "nextReview": "2026-02-10",
+      "interval": 7,
       "easeFactor": 2.35,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 48,
       "english": "rave (as in club rave)",
       "swedish": "rejv",
-      "nextReview": "2026-01-30",
-      "interval": 3,
+      "nextReview": "2026-02-10",
+      "interval": 7,
       "easeFactor": 2.65,
-      "repetitions": 2
+      "repetitions": 3
     },
     {
       "id": 49,
       "english": "gossip",
       "swedish": "skvaller",
-      "nextReview": "2026-01-31",
-      "interval": 3,
-      "easeFactor": 2.35,
+      "nextReview": "2026-02-04",
+      "interval": 1,
+      "easeFactor": 2.2,
       "repetitions": 2
     },
     {
       "id": 50,
       "english": "even if",
       "swedish": "även om",
-      "nextReview": "2026-01-29",
-      "interval": 1,
+      "nextReview": "2026-02-06",
+      "interval": 3,
       "easeFactor": 2.5,
-      "repetitions": 1
+      "repetitions": 2
     },
     {
       "id": 51,
       "english": "until",
       "swedish": "tills, inte förrän",
-      "nextReview": "2026-01-29",
+      "nextReview": "2026-02-04",
       "interval": 1,
       "easeFactor": 2.35,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 52,
       "english": "even though",
       "swedish": "fastän",
-      "nextReview": "2026-01-29",
+      "nextReview": "2026-02-04",
       "interval": 1,
       "easeFactor": 2.35,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 53,
       "english": "at a certain time",
       "swedish": "på en viss tid",
-      "nextReview": "2026-02-03",
+      "nextReview": "2026-02-04",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 54,
       "english": "bad habits",
       "swedish": "ovanor",
-      "nextReview": "2026-02-03",
+      "nextReview": "2026-02-04",
       "interval": 1,
-      "easeFactor": 2.5,
-      "repetitions": 0
+      "easeFactor": 2.65,
+      "repetitions": 1
     },
     {
       "id": 55,
       "english": "to exaggerate",
       "swedish": "att överdriva",
-      "nextReview": "2026-02-03",
+      "nextReview": "2026-02-04",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 56,
       "english": "drug addict",
       "swedish": "narkoman",
-      "nextReview": "2026-02-03",
+      "nextReview": "2026-02-04",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 57,
       "english": "exercise addict",
       "swedish": "träningsnarkoman",
-      "nextReview": "2026-02-03",
+      "nextReview": "2026-02-04",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 58,
       "english": "junkie",
       "swedish": "knarkare",
-      "nextReview": "2026-02-03",
+      "nextReview": "2026-02-04",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     }
   ],
   "nextId": 59
