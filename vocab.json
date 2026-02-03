@@ -467,7 +467,61 @@
       "interval": 1,
       "easeFactor": 2.35,
       "repetitions": 0
+    },
+    {
+      "id": 53,
+      "english": "at a certain time",
+      "swedish": "på en viss tid",
+      "nextReview": "2026-02-03",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 54,
+      "english": "bad habits",
+      "swedish": "ovanor",
+      "nextReview": "2026-02-03",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 55,
+      "english": "to exaggerate",
+      "swedish": "att överdriva",
+      "nextReview": "2026-02-03",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 56,
+      "english": "drug addict",
+      "swedish": "narkoman",
+      "nextReview": "2026-02-03",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 57,
+      "english": "exercise addict",
+      "swedish": "träningsnarkoman",
+      "nextReview": "2026-02-03",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
+    },
+    {
+      "id": 58,
+      "english": "junkie",
+      "swedish": "knarkare",
+      "nextReview": "2026-02-03",
+      "interval": 1,
+      "easeFactor": 2.5,
+      "repetitions": 0
     }
   ],
-  "nextId": 53
+  "nextId": 59
 }
