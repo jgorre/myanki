@@ -526,64 +526,64 @@
       "id": 59,
       "english": "wealthy, affluent",
       "swedish": "förmögen",
-      "nextReview": "2026-02-12",
+      "nextReview": "2026-02-13",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 60,
       "english": "a breakthrough",
       "swedish": "ett genombrott",
-      "nextReview": "2026-02-12",
+      "nextReview": "2026-02-13",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 61,
       "english": "a trade (or a shop)",
       "swedish": "en handel",
-      "nextReview": "2026-02-12",
+      "nextReview": "2026-02-13",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 62,
       "english": "stomach trouble, digestive issues",
       "swedish": "magbesvär",
-      "nextReview": "2026-02-12",
+      "nextReview": "2026-02-13",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 63,
       "english": "The Mediterranean Sea",
       "swedish": "Medelhavet",
-      "nextReview": "2026-02-12",
+      "nextReview": "2026-02-13",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 64,
       "english": "to steer, govern, control",
       "swedish": "att styra",
-      "nextReview": "2026-02-12",
+      "nextReview": "2026-02-13",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     },
     {
       "id": 65,
       "english": "a widow",
       "swedish": "en änka",
-      "nextReview": "2026-02-12",
+      "nextReview": "2026-02-13",
       "interval": 1,
       "easeFactor": 2.5,
-      "repetitions": 0
+      "repetitions": 1
     }
   ],
   "nextId": 66
